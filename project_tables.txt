@@ -1,0 +1,28 @@
+Database Name :  SQLite
+
+Table -1 
+---------
+      Nmae: users
+
+      Field/Cols
+          1. users_acno      interger     primary_key      autoincrement
+          2. users_name      text
+          3. users_pass      text
+          4. users_mob       text         unique key
+          5. users_email     text         unique key
+          6. users_bal       float
+          7. users_adhar     text         unique key
+          8. users_opendate  text
+
+
+Table -2
+---------
+      Name: txn
+
+      Fields/Cols
+          1. txn_id          int      primary_key   autoincrement
+          2. txn_acn         int
+          3. txn_type        text
+          4. txn_amt         float
+          5. txn_bal         float
+          6. txn_date        text  
